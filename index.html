@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Cool Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container nav-container">
+			<div class="logo">MY PORTFOLIO</div>
+			<ul class="nav-links">
+				<li><a href="#hero">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section id="hero" class="section hero-section">
+		<div class="container">
+			<h1 style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+				<img src="217578481_939883293526417_3400407104370126878_n.jpg" alt="CJ CLAVICILLAS New" class="hero-image" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 24px #a259f744; border: 4px solid #fff;">
+				
+				<span>Hi, I'm <span class="highlight">PAUL ANTHONY MAHILOM</span></span>
+			<p class="subtitle">Creative Developer & Designer</p>
+			<a href="#projects" class="btn">View My Work</a>
+		</div>
+	</section>
+	<section id="about" class="section about-section">
+		<div class="container">
+			<h2>About Me</h2>
+			<p>Hi! I'm Cj and i love to explore new ideas and create cool stuff like coding, probllem solving. im am now in grade 12 and rn im spending my time learning and developing in proogram because i know this lesson will helkp me oon my career that i will take in the future
+
+		</div>
+	</section>
+	<section id="projects" class="section projects-section">
+		<div class="container">
+			<h2>Projects</h2>
+			<div class="projects-grid">
+				<div class="project-card" id="project-one-card" style="cursor:pointer;">
+					<h3>Project One</h3>
+					<p>My First Project Using Arduino and Creating Assistive device from it.</p>
+				</div>
+				<!-- Popup Image Container -->
+				<div id="popup-image-container" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7); justify-content:center; align-items:center; z-index:1000;">
+					<div style="display:flex; flex-direction:column; align-items:center;">
+						<img src="png-clipart-arduino-pull-up-resistor-push-button-electrical-switches-stairs-signal-electronics-microcontroller.png"alt="Project One Image" style="max-width:90vw; max-height:60vh; border-radius:12px; box-shadow:0 8px 32px #0008;">
+						<p style="color:#fff; background:rgba(0,0,0,0.6); padding:1rem 2rem; border-radius:8px; margin-top:1.5rem; max-width:80vw; text-align:center; font-size:1.1rem;">
+							This is the project we work on our Practical Research 2. This is an Arduino Uno / IOT Based device, we were creating an assistive device for blinf people using arduino and it turns out well while we are creating by its help, and for me i learned so much from it on arduino
+						</p>
+					</div>
+				</div>
+				   <div class="project-card" id="project-two-card" style="cursor:pointer;">
+					   <h3>Project Two</h3>
+				
+					   <p>This is my second project Creating Mysql.</p>
+				   </div>
+				   <!-- Popup Image Container for Project Two -->
+				   <div id="popup-image-container-two" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7); justify-content:center; align-items:center; z-index:1000;">
+					   <div style="display:flex; flex-direction:column; align-items:center;">
+						   <img src="mysql-2.png" alt="Project Two Image" style="max-width:90vw; max-height:60vh; border-radius:12px; box-shadow:0 8px 32px #0008;">
+						   <p style="color:#fff; background:rgba(0,0,0,0.6); padding:1rem 2rem; border-radius:8px; margin-top:1.5rem; max-width:80vw; text-align:center; font-size:1.1rem;">
+							   This was our project on Computer Programming in Mysql 
+						   </p>
+					   </div>
+				   </div>
+				   <div class="project-card" id="project-three-card" style="cursor:pointer;">
+					   <h3>Project Three</h3>
+					   <p>Fun, interactive, and visually appealing project.</p>
+				   </div>
+				   <!-- Popup Image Container for Project Three -->
+				   <div id="popup-image-container-three" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.7); justify-content:center; align-items:center; z-index:1000;">
+					   <div style="display:flex; flex-direction:column; align-items:center;">
+						   <img src="its me mahilom im good in cycling, dancing and singing i also like playing games like roblox, ml, cod, and i’m learniing to be come a programmer.jpg" alt="Project Three Image" style="max-width:90vw; max-height:60vh; border-radius:12px; box-shadow:0 8px 32px #0008;">
+					   </div>
+				   </div>
+			</div>
+		</div>
+	</section>
+	<section id="contact" class="section contact-section">
+		<div class="container">
+			<h2>Contact</h2>
+			<form class="contact-form">
+				<input type="text" placeholder="Your Name" required>
+				<input type="email" placeholder="Your Email" required>
+				<textarea placeholder="Your Message" required></textarea>
+				<button type="submit" class="btn">Send Message</button>
+			</form>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<p>&copy; 2025 CJ. All rights reserved.</p>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
